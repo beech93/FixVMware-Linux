@@ -7,5 +7,4 @@ tar -cf vmmon.tar vmmon-only
 tar -cf vmnet.tar vmnet-only
 sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
 sudo vmware-modconfig --console --install-all
-
 echo "Finished."
